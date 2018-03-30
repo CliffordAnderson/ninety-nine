@@ -1,6 +1,6 @@
 ## Problem 17
 
-Split an array into an array with two subarrays. Make the length of the first array equal to the second argument. The second array should contain the rest of the items in the original array.
+Split an array into an array with two subarrays. Make the length of the first subarray equal to the second argument. The second subarray should contain the rest of the items in the original array. If the second argument is less than one, then you should return an empty array for the first subarray. If the second argument is greater than the number of items in the orginal array, then the first subarray should contain all the items and the second subarray should be empty
 
 ## Example
 

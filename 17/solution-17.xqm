@@ -19,5 +19,5 @@ declare function ninetynine:split($items as array(*)*, $num as xs:integer) as ar
   else
       let $array1 := array { $items?(1 to $num) }
       let $array2 := array:subarray($items, $num + 1)
-      return [$array1, $array2]
+      return array { $array1, $array2 }
 };
